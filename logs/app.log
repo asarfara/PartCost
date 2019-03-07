@@ -1,0 +1,64 @@
+2019-03-07 21:35:42,143 - PartCost - DEBUG - Creating connection in db/parts.db
+2019-03-07 21:35:42,143 - PartCost - DEBUG - Creating table parts_price
+2019-03-07 21:35:42,144 - PartCost - INFO - Trying to open a page with url: https://www.mwave.com.au/product/amd-ryzen-7-2700x-8-core-socket-am4-43ghz-cpu-processor-wraith-prism-cooler-ac12825
+2019-03-07 21:35:44,549 - PartCost - INFO - Creating part object: {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "489.00", "supplier": "Mwave", "type": "processor"}
+2019-03-07 21:35:44,549 - PartCost - INFO - Trying to open a page with url: https://www.centrecom.com.au/amd-ryzen-7-2700x-8-core-processor-yd270xbgafbox
+2019-03-07 21:35:45,094 - PartCost - INFO - Creating part object: {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "514", "supplier": "Centre com", "type": "processor"}
+2019-03-07 21:35:45,094 - PartCost - INFO - Trying to open a page with url: https://www.pcbyte.com.au/amd-ryzen-7-2700x-8-core-socket-am4-3-7ghz-cpu-processor
+2019-03-07 21:35:45,825 - PartCost - INFO - Creating part object: {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "515.00", "supplier": "PC Byte", "type": "processor"}
+2019-03-07 21:35:45,826 - PartCost - INFO - Trying to open a page with url: https://www.pccasegear.com/products/42069
+2019-03-07 21:35:46,474 - PartCost - INFO - Creating part object: {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "509", "supplier": "PC Case Gear", "type": "processor"}
+2019-03-07 21:35:46,474 - PartCost - INFO - Trying to open a page with url: https://www.budgetpc.com.au/amd-ryzen-7-2700x-with-wraith-prism
+2019-03-07 21:35:47,704 - PartCost - INFO - Creating part object: {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "509.00", "supplier": "Budget PC", "type": "processor"}
+2019-03-07 21:35:47,704 - PartCost - INFO - Trying to open a page with url: https://www.umart.com.au/AMD-Ryzen-7-2700X-8-Core-Socket-AM4-3-7GHz-CPU-Processor-with-Wraith-PRism-RGB-Cooler_43542G.html
+2019-03-07 21:35:48,529 - PartCost - INFO - Creating part object: {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "489.0", "supplier": "UMart", "type": "processor"}
+2019-03-07 21:35:48,529 - PartCost - INFO - Trying to open a page with url: https://www.ple.com.au/Products/631479/AMD-Ryzen-7-2700X-37GHz-8-Core-16-Thread-AM4-Retail-Box---With-Wraith-Prism-RGB-Cooler
+2019-03-07 21:35:49,433 - PartCost - INFO - Creating part object: {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "509.00", "supplier": "PLE Computers", "type": "processor"}
+2019-03-07 21:35:49,433 - PartCost - INFO - Trying to open a page with url: https://www.stormcomputers.com.au/product/amd-ryzen-7-2700x-8-core-16-threads-unlocked-max-freq-4-35ghz-20mb-cache-socket-am4-105w-with-wraith-prism-cooler/
+2019-03-07 21:35:52,411 - PartCost - INFO - Creating part object: {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "519.00", "supplier": "Storm Computers", "type": "processor"}
+2019-03-07 21:35:52,412 - PartCost - INFO - Trying to open a page with url: https://www.skycomp.com.au/yd270xbgafbox-amd-ryzen-7-2700x-processor-socket-am4-8-cores-16-threads-up-to-4-30ghz-20mb-cache-tdp-105w-with-wraith-prism-rgb-cooler.html
+2019-03-07 21:35:53,764 - PartCost - INFO - Creating part object: {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "494", "supplier": "Sky Comp", "type": "processor"}
+2019-03-07 21:35:53,764 - PartCost - INFO - Trying to open a page with url: https://www.msy.com.au/viconline/am4/21134-c-amd-yd270xbgafbox-ryzen-7-2700x-435ghz-8-core-20mb-105w-am4-boxed-cpu-with-wraith-prism-cooler.html
+2019-03-07 21:35:56,006 - PartCost - INFO - Creating part object: {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "509.00", "supplier": "MSY", "type": "processor"}
+2019-03-07 21:35:56,006 - PartCost - DEBUG - Inserting into price_parts {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "489.00", "supplier": "Mwave", "type": "processor"}
+2019-03-07 21:35:56,007 - PartCost - DEBUG - Inserting into price_parts {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "514", "supplier": "Centre com", "type": "processor"}
+2019-03-07 21:35:56,008 - PartCost - DEBUG - Inserting into price_parts {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "515.00", "supplier": "PC Byte", "type": "processor"}
+2019-03-07 21:35:56,009 - PartCost - DEBUG - Inserting into price_parts {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "509", "supplier": "PC Case Gear", "type": "processor"}
+2019-03-07 21:35:56,010 - PartCost - DEBUG - Inserting into price_parts {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "509.00", "supplier": "Budget PC", "type": "processor"}
+2019-03-07 21:35:56,011 - PartCost - DEBUG - Inserting into price_parts {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "489.0", "supplier": "UMart", "type": "processor"}
+2019-03-07 21:35:56,012 - PartCost - DEBUG - Inserting into price_parts {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "509.00", "supplier": "PLE Computers", "type": "processor"}
+2019-03-07 21:35:56,013 - PartCost - DEBUG - Inserting into price_parts {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "519.00", "supplier": "Storm Computers", "type": "processor"}
+2019-03-07 21:35:56,015 - PartCost - DEBUG - Inserting into price_parts {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "494", "supplier": "Sky Comp", "type": "processor"}
+2019-03-07 21:35:56,016 - PartCost - DEBUG - Inserting into price_parts {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "509.00", "supplier": "MSY", "type": "processor"}
+2019-03-07 21:42:19,048 - PartCost - DEBUG - Creating connection in db/parts.db
+2019-03-07 21:42:19,048 - PartCost - DEBUG - Creating table parts_price
+2019-03-07 21:42:19,050 - PartCost - INFO - Trying to open a page with url: https://www.mwave.com.au/product/amd-ryzen-7-2700x-8-core-socket-am4-43ghz-cpu-processor-wraith-prism-cooler-ac12825
+2019-03-07 21:42:20,317 - PartCost - INFO - Creating part object: {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "489.00", "supplier": "Mwave", "type": "processor"}
+2019-03-07 21:42:20,317 - PartCost - INFO - Trying to open a page with url: https://www.centrecom.com.au/amd-ryzen-7-2700x-8-core-processor-yd270xbgafbox
+2019-03-07 21:42:20,765 - PartCost - INFO - Creating part object: {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "514", "supplier": "Centre com", "type": "processor"}
+2019-03-07 21:42:20,765 - PartCost - INFO - Trying to open a page with url: https://www.pcbyte.com.au/amd-ryzen-7-2700x-8-core-socket-am4-3-7ghz-cpu-processor
+2019-03-07 21:42:21,498 - PartCost - INFO - Creating part object: {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "515.00", "supplier": "PC Byte", "type": "processor"}
+2019-03-07 21:42:21,498 - PartCost - INFO - Trying to open a page with url: https://www.pccasegear.com/products/42069
+2019-03-07 21:42:22,138 - PartCost - INFO - Creating part object: {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "509", "supplier": "PC Case Gear", "type": "processor"}
+2019-03-07 21:42:22,138 - PartCost - INFO - Trying to open a page with url: https://www.budgetpc.com.au/amd-ryzen-7-2700x-with-wraith-prism
+2019-03-07 21:42:23,178 - PartCost - INFO - Creating part object: {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "509.00", "supplier": "Budget PC", "type": "processor"}
+2019-03-07 21:42:23,178 - PartCost - INFO - Trying to open a page with url: https://www.umart.com.au/AMD-Ryzen-7-2700X-8-Core-Socket-AM4-3-7GHz-CPU-Processor-with-Wraith-PRism-RGB-Cooler_43542G.html
+2019-03-07 21:42:23,947 - PartCost - INFO - Creating part object: {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "489.0", "supplier": "UMart", "type": "processor"}
+2019-03-07 21:42:23,947 - PartCost - INFO - Trying to open a page with url: https://www.ple.com.au/Products/631479/AMD-Ryzen-7-2700X-37GHz-8-Core-16-Thread-AM4-Retail-Box---With-Wraith-Prism-RGB-Cooler
+2019-03-07 21:42:24,584 - PartCost - INFO - Creating part object: {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "509.00", "supplier": "PLE Computers", "type": "processor"}
+2019-03-07 21:42:24,584 - PartCost - INFO - Trying to open a page with url: https://www.stormcomputers.com.au/product/amd-ryzen-7-2700x-8-core-16-threads-unlocked-max-freq-4-35ghz-20mb-cache-socket-am4-105w-with-wraith-prism-cooler/
+2019-03-07 21:42:26,870 - PartCost - INFO - Creating part object: {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "519.00", "supplier": "Storm Computers", "type": "processor"}
+2019-03-07 21:42:26,870 - PartCost - INFO - Trying to open a page with url: https://www.skycomp.com.au/yd270xbgafbox-amd-ryzen-7-2700x-processor-socket-am4-8-cores-16-threads-up-to-4-30ghz-20mb-cache-tdp-105w-with-wraith-prism-rgb-cooler.html
+2019-03-07 21:42:28,324 - PartCost - INFO - Creating part object: {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "494", "supplier": "Sky Comp", "type": "processor"}
+2019-03-07 21:42:28,324 - PartCost - INFO - Trying to open a page with url: https://www.msy.com.au/viconline/am4/21134-c-amd-yd270xbgafbox-ryzen-7-2700x-435ghz-8-core-20mb-105w-am4-boxed-cpu-with-wraith-prism-cooler.html
+2019-03-07 21:42:29,875 - PartCost - INFO - Creating part object: {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "509.00", "supplier": "MSY", "type": "processor"}
+2019-03-07 21:42:29,876 - PartCost - DEBUG - Inserting into price_parts {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "489.00", "supplier": "Mwave", "type": "processor"}
+2019-03-07 21:42:29,882 - PartCost - DEBUG - Inserting into price_parts {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "514", "supplier": "Centre com", "type": "processor"}
+2019-03-07 21:42:29,883 - PartCost - DEBUG - Inserting into price_parts {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "515.00", "supplier": "PC Byte", "type": "processor"}
+2019-03-07 21:42:29,884 - PartCost - DEBUG - Inserting into price_parts {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "509", "supplier": "PC Case Gear", "type": "processor"}
+2019-03-07 21:42:29,885 - PartCost - DEBUG - Inserting into price_parts {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "509.00", "supplier": "Budget PC", "type": "processor"}
+2019-03-07 21:42:29,886 - PartCost - DEBUG - Inserting into price_parts {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "489.0", "supplier": "UMart", "type": "processor"}
+2019-03-07 21:42:29,887 - PartCost - DEBUG - Inserting into price_parts {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "509.00", "supplier": "PLE Computers", "type": "processor"}
+2019-03-07 21:42:29,888 - PartCost - DEBUG - Inserting into price_parts {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "519.00", "supplier": "Storm Computers", "type": "processor"}
+2019-03-07 21:42:29,889 - PartCost - DEBUG - Inserting into price_parts {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "494", "supplier": "Sky Comp", "type": "processor"}
+2019-03-07 21:42:29,890 - PartCost - DEBUG - Inserting into price_parts {"name": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor", "price": "509.00", "supplier": "MSY", "type": "processor"}

@@ -1,0 +1,45 @@
+# YAML
+name: AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor
+type: processor
+suppliers:
+  -
+    name: Mwave
+    element: .divPriceNormal div
+    url: https://www.mwave.com.au/product/amd-ryzen-7-2700x-8-core-socket-am4-43ghz-cpu-processor-wraith-prism-cooler-ac12825
+  -
+    name: Centre com
+    element: .prod_price_current span
+    url: https://www.centrecom.com.au/amd-ryzen-7-2700x-8-core-processor-yd270xbgafbox
+  -
+    name: PC Byte
+    element: .regular-price .price
+    url: https://www.pcbyte.com.au/amd-ryzen-7-2700x-8-core-socket-am4-3-7ghz-cpu-processor
+  -
+    name: PC Case Gear
+    element: .product-price span
+    url: https://www.pccasegear.com/products/42069
+  -
+    name: Budget PC
+    element: .regular-price .price
+    url: https://www.budgetpc.com.au/amd-ryzen-7-2700x-with-wraith-prism
+  -
+    name: UMart
+    element: "#shop_price"
+    url: https://www.umart.com.au/AMD-Ryzen-7-2700X-8-Core-Socket-AM4-3-7GHz-CPU-Processor-with-Wraith-PRism-RGB-Cooler_43542G.html
+  -
+    name: PLE Computers
+    element: .vi2_theprice
+    url: https://www.ple.com.au/Products/631479/AMD-Ryzen-7-2700X-37GHz-8-Core-16-Thread-AM4-Retail-Box---With-Wraith-Prism-RGB-Cooler
+  -
+    name: Storm Computers
+    element: .woocommerce-Price-amount
+    url: https://www.stormcomputers.com.au/product/amd-ryzen-7-2700x-8-core-16-threads-unlocked-max-freq-4-35ghz-20mb-cache-socket-am4-105w-with-wraith-prism-cooler/
+  -
+    name: Sky Comp
+    element: .price_custom_final
+    url: https://www.skycomp.com.au/yd270xbgafbox-amd-ryzen-7-2700x-processor-socket-am4-8-cores-16-threads-up-to-4-30ghz-20mb-cache-tdp-105w-with-wraith-prism-rgb-cooler.html
+  -
+    name: MSY
+    element: "#our_price_display"
+    url: https://www.msy.com.au/viconline/am4/21134-c-amd-yd270xbgafbox-ryzen-7-2700x-435ghz-8-core-20mb-105w-am4-boxed-cpu-with-wraith-prism-cooler.html
+
