@@ -9,7 +9,6 @@ pyyaml = "*"
 validators = "*"
 
 [packages]
-"src.Service.PriceChecker" = "*"
 
 [requires]
 python_version = "3.7"
