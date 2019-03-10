@@ -1,0 +1,28 @@
+# YAML
+name: Asus - ROG Crosshair VII Hero (Wi-Fi) ATX AM4 Motherboard
+type: motherboard
+suppliers:
+  -
+    name: Mwave
+    element: .divPriceNormal div
+    url: https://www.mwave.com.au/product/asus-rog-crosshair-vii-hero-wifi-x470-am4-atx-motherboard-ac12873
+  -
+    name: Centre com
+    element: .prod_price_current span
+    url: https://www.centrecom.com.au/asus-rog-amd-x470-crosshair-vii-hero-wi-fi-am4-motherboard
+  -
+    name: PC Byte
+    element: .regular-price .price
+    url: https://www.pcbyte.com.au/asus-amd-rog-x470-atx-gaming-motherboard-with-m-2-rgb-ddr4-wifi-dual-m2-wifi-rog-crosshair-vii-hero-wi-fi
+  -
+    name: PC Case Gear
+    element: .product-price span
+    url: https://www.pccasegear.com/products/42174/asus-rog-crosshair-vii-hero-motherboard-with-wi-fi
+  -
+    name: Sky Comp
+    element: .price_custom_final
+    url: https://www.skycomp.com.au/rog-crosshair-vii-hero-wi-fi-asus-rog-crosshair-vii-hero-wi-fi-atx-mb-4xddr4-5xpcie-2xm-2-6xsata-raid-10xusd3-wifi-bt.html
+  -
+    name: MSY
+    element: "#our_price_display"
+    url: https://www.msy.com.au/viconline/motherboard/21234-asus-rog-crosshair-vii-hero-wifi-x470-4xddr4-pci-e-m2-usb31-gen2-type-a-type-c-atx-motherboard.html
