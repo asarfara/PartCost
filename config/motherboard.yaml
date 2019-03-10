@@ -26,3 +26,11 @@ suppliers:
     name: MSY
     element: "#our_price_display"
     url: https://www.msy.com.au/viconline/motherboard/21234-asus-rog-crosshair-vii-hero-wifi-x470-4xddr4-pci-e-m2-usb31-gen2-type-a-type-c-atx-motherboard.html
+  -
+    name: CPL Online
+    element: .product-price-box .price-box .regular-price span
+    url: https://cplonline.com.au/asus-rog-crosshair-vii-hero-wi-fi-motherboard.html
+  -
+    name: Scorptec
+    element: '#price-price'
+    url: https://www.scorptec.com.au/product/Motherboards/AMD-Socket-AM4/72435-ROG-CROSSHAIR-VII-HERO-(WI-FI)

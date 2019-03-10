@@ -42,4 +42,12 @@ suppliers:
     name: MSY
     element: "#our_price_display"
     url: https://www.msy.com.au/viconline/am4/21134-c-amd-yd270xbgafbox-ryzen-7-2700x-435ghz-8-core-20mb-105w-am4-boxed-cpu-with-wraith-prism-cooler.html
+  -
+    name: CPL Online
+    element: .product-price-box .price-box .regular-price span
+    url: https://cplonline.com.au/amd-ryzen-7-2700x-8-core-16-4-35ghz-advyd270xbgafbox.html
+  -
+    name: Scorptec
+    element: '#price-price'
+    url: https://www.scorptec.com.au/product/CPU/AMD-Socket-AM4/71978-YD270XBGAFBOX
 

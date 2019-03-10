@@ -1,0 +1,41 @@
+# YAML
+name: G.Skill - Trident Z RGB 16 GB (2 x 8 GB) DDR4-3200 Memory
+type: memory
+suppliers:
+  -
+    name: Mwave
+    element: .divPriceNormal div
+    url: https://www.mwave.com.au/product/gskill-trident-z-rgb-16gb-2x-8gb-ddr4-3200mhz-memory-ab94981
+  -
+    name: Centre com
+    element: .prod_price_current span
+    url: https://www.centrecom.com.au/gskill-trident-z-rgb-16gb-2x8gb-3200mhz-ddr4-desktop-ram
+  -
+    name: PC Case Gear
+    element: .product-price span
+    url: https://www.pccasegear.com/products/37884/g-skill-trident-z-rgb-f4-3200c16d-16gtzr-16gb-2x8gb-ddr4
+  -
+    name: Sky Comp
+    element: .price_custom_final
+    url: https://www.skycomp.com.au/ddr4-3200-16gb-dual-channel-trident-z-rgb-f4-3200c16d-16gtzr.html
+  -
+    name: MSY
+    element: "#our_price_display"
+    url: https://www.msy.com.au/desktop-ram/18560-gskill-trident-z-rgb-f4-3200c16d-16gtzr-16gb-kit-8gx2-ddr4-3200-desktop-ram.html
+  -
+    name: CPL Online
+    element: .product-price-box .price-box .regular-price span
+    url: https://cplonline.com.au/g-skill-16gb-f4-3200c16d-16gtzr-ddr4-3200-mhz-trident-z-rgb.html
+  -
+    name: Scorptec
+    element: '#price-price'
+    url: https://www.scorptec.com.au/product/Memory/DDR4/66941-F4-3200C16D-16GTZR
+  -
+    name: UMart
+    element: "#shop_price"
+    url: https://www.umart.com.au/G-Skill-16GB--2x-8GB--F4-3200C16D-16GTZR-DDR4-3200Mhz-Trident-Z-RGB_38084G.html
+  -
+    name: PLE Computers
+    element: .vi2_theprice
+    url: https://www.ple.com.au/Products/626898/GSkill-16GB-2x8GB-DDR4-Trident-Z-RGB-3200MHz
+
