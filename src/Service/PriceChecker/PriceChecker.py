@@ -52,6 +52,7 @@ class PriceChecker:
                 self.logger.error("Exception occurred while trying to parse page: {0}".format(e))
                 continue
 
+
             if content:
                 element_html = content.text.replace(" ", "").replace("\t", "").replace("\n", "").replace("\r\n", "").replace("\r", "")
 
@@ -59,7 +60,7 @@ class PriceChecker:
                 cost = re.findall(r'[\d\.\d]+', element_html)
 
             if cost and isinstance(cost, list):
-                part = Part(name, cost[0], supplier_name, type)
+                part = Part(name, ''.join(cost), supplier_name, type)
                 parts.append(part)
                 self.logger.info("Creating part object: {0}".format(json.dumps(part.__dict__)))
 

@@ -1,6 +1,6 @@
 # YAML
 name: Seagate BarraCuda HDD 1TB
-type: processor
+type: harddrive
 suppliers:
   -
     name: Mwave

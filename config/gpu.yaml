@@ -1,0 +1,45 @@
+# YAML
+name: ASUS GeForce RTX 2080 ROG Strix OC 8GB Video Card
+type: gpu
+suppliers:
+  -
+    name: Mwave
+    element: .divPriceNormal div
+    url: https://www.mwave.com.au/product/asus-geforce-rtx-2080-rog-strix-oc-8gb-video-card-ac18152
+  -
+    name: Centre com
+    element: .prod_price_current span
+    url: https://www.centrecom.com.au/asus-geforce-rtx-2080-rog-strix-advanced-8gb-graphics-card
+  -
+    name: PC Byte
+    element: .regular-price .price
+    url: https://www.pcbyte.com.au/asus-rog-strix-geforce-rtx-2080-oc-edition-8gb-rog-strix-rtx2080-o8g-gaming
+  -
+    name: PC Case Gear
+    element: .product-price span
+    url: https://www.pccasegear.com/products/44074/asus-rog-strix-geforce-rtx-2080-oc-gaming-8gb
+  -
+    name: Budget PC
+    element: .regular-price .price
+    url: https://www.budgetpc.com.au/asus-geforce-rtx2080-strix-oc-8gb-gddr6-video-card
+  -
+    name: UMart
+    element: "#shop_price"
+    url: https://www.umart.com.au/Asus-GeForce-RTX-2080-Strix-Gaming-8G-OC-Graphics-Card_47326G.html
+  -
+    name: PLE Computers
+    element: .vi2_theprice
+    url: https://www.ple.com.au/Products/633338/ASUS-GeForce-RTX2080-Strix-OC-8GB-GDDR6
+  -
+    name: Storm Computers
+    element: .woocommerce-Price-amount
+    url: https://www.stormcomputers.com.au/product/asus-rog-strix-rtx2080-o8g-gaming-geforce-rtx2080-oc-edition-8gb-gddr6/
+  -
+    name: MSY
+    element: "#our_price_display"
+    url: https://www.msy.com.au/viconline/nvidia/22283-asus-nvidia-rog-strix-rtx2080-a8g-gaming-8gb-rtx-2080-strix-pci-e-vga-card.html
+  -
+    name: CPL Online
+    element: .product-price-box .price-box .regular-price span
+    url: https://cplonline.com.au/asus-geforce-rtx2080-strix-oc-8gb-rog-strix-rtx2080-o8g-gaming.html
+

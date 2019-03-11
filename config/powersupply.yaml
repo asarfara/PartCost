@@ -1,0 +1,41 @@
+# YAML
+name: Corsair RM650x 650W 80 Plus V2 Gold Fully Modular ATX Power Supply
+type: powersupply
+suppliers:
+  -
+    name: Mwave
+    element: .divPriceNormal div
+    url: https://www.mwave.com.au/product/corsair-rm650x-650w-80-plus-v2-gold-fully-modular-atx-power-supply-ac14752
+  -
+    name: Centre com
+    element: .prod_price_current span
+    url: https://www.centrecom.com.au/corsair-rm650x-650w-80-plus-v2-gold-fully-modular-atx-power-supply
+  -
+    name: PC Byte
+    element: .regular-price .price
+    url: https://www.pcbyte.com.au/corsair-rm650x-650w-80-plus-gold-power-supply
+  -
+    name: PC Case Gear
+    element: .product-price span
+    url: https://www.pccasegear.com/products/43077/corsair-rm650x-gold-650w-power-supply
+  -
+    name: Budget PC
+    element: .regular-price .price
+    url: https://www.budgetpc.com.au/corsair-rm650x-650w-80-plus-v2-gold-fully-modular-atx-power-supply
+  -
+    name: UMart
+    element: "#shop_price"
+    url: https://www.umart.com.au/Corsair-RM650x-650W-Fully-Modular-80-Plus-Gold_33431G.html
+  -
+    name: PLE Computers
+    element: .vi2_theprice
+    url: https://www.ple.com.au/Products/632279/Corsair-RM650x-V2-650W-80PLUS-Gold-Modular-Power-Supply
+  -
+    name: CPL Online
+    element: .product-price-box .price-box .regular-price span
+    url: https://cplonline.com.au/corsair-cp-9020178-au-650w-v2-rmx-80-gold-fully-modular-power-supply.html
+  -
+    name: Scorptec
+    element: '#price-price'
+    url: https://www.scorptec.com.au/product/Power-Supplies/ATX/73513-CP-9020178-AU
+

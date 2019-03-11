@@ -12,7 +12,7 @@ from src.Service.DatabaseConnection.DatabaseConnection import DatabaseConnection
 logger = logging.getLogger('PartCost')
 logger.setLevel(logging.DEBUG)
 
-file_handler = logging.FileHandler('logs/app.log')
+file_handler = logging.FileHandler('/opt/projects/logs/app.log')
 file_handler.setLevel(logging.DEBUG)
 
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -20,8 +20,8 @@ file_handler.setFormatter(formatter)
 
 logger.addHandler(file_handler)
 
-document = open('config/powersupply.yaml', 'r')
-database_file_name = "db/parts.db"
+document = open('/opt/projects/config/gpu.yaml', 'r')
+database_file_name = "/opt/projects/db/parts.db"
 partsList = yaml.safe_load(document)
 
 databaseConnectionService = DatabaseConnection(database_file_name, logger)

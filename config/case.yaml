@@ -1,0 +1,45 @@
+# YAML
+name: Thermaltake - View 71 TG RGB
+type: case
+suppliers:
+  -
+    name: Mwave
+    element: .divPriceNormal div
+    url: https://www.mwave.com.au/product/thermaltake-view-71-rgb-plus-tempered-glass-fulltower-eatx-case-ac19478
+  -
+    name: Centre com
+    element: .prod_price_current span
+    url: https://www.centrecom.com.au/thermaltake-view-71-tempered-glass-rgb-edition-full-tower-chassis-case
+  -
+    name: PC Byte
+    element: .regular-price .price
+    url: https://www.pcbyte.com.au/thermaltake-view-71-tempered-glass-rgb-edition-full-tower-case
+  -
+    name: PC Case Gear
+    element: .product-price span
+    url: https://www.pccasegear.com/products/44595/thermaltake-view-71-tg-rgb-plus-edition-full-tower-chassis
+  -
+    name: Budget PC
+    element: .regular-price .price
+    url: https://www.budgetpc.com.au/computer-hardware/computer-components/thermaltake-view-71-rgb-tempered-glass-full-tower-e-atx-case
+  -
+    name: UMart
+    element: "#shop_price"
+    url: https://www.umart.com.au/Thermaltake-View-71-Tempered-Glass-RGB-Edition-Full-Tower-Gaming-Case_39924G.html
+  -
+    name: PLE Computers
+    element: .vi2_theprice
+    url: https://www.ple.com.au/Products/629103/Thermaltake-View-71-Tempered-Glass-RGB-Edition-Full-Tower
+  -
+    name: MSY
+    element: "#our_price_display"
+    url: https://www.msy.com.au/viconline/case/21110-thermaltake-view-71-tg-rgb-ca-1i7-00f1wn-00-tempered-glass-full-tower-gaming-case-without-psu.html
+  -
+    name: CPL Online
+    element: .product-price-box .price-box .regular-price span
+    url: https://cplonline.com.au/thermaltake-ca-117-00f1wn-01-view-71-tempered-glass-rgb-full-tower-chassis.html
+  -
+    name: Scorptec
+    element: '#price-price'
+    url: https://www.scorptec.com.au/product/Cases/ATX/69623-CA-1I7-00F1WN-01
+

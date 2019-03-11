@@ -2,3 +2,6 @@
 .DS_STORE
 /logs/*
 /db/*
+__pycache__/
+*.py[cod]
+*$py.class
