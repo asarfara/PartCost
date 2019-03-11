@@ -1,0 +1,46 @@
+# YAML
+name: Samsung 970 EVO Plus 250GB M.2
+type: m2
+suppliers:
+  -
+    name: Mwave
+    element: .divPriceNormal div
+    url: https://www.mwave.com.au/product/samsung-970-evo-plus-250gb-nvme-13-m2-2280-3bit-vnand-ssd-mzv7s250bw-ac21129
+  -
+    name: Centre com
+    element: .prod_price_current span
+    url: https://www.centrecom.com.au/samsung-970-evo-plus-250gb-nvme-pcie-ssd-mz-v7s250bw
+  -
+    name: PC Case Gear
+    element: .product-price span
+    url: https://www.pccasegear.com/products/45319/samsung-970-evo-plus-nvme-ssd-250gb
+  -
+    name: CPL Online
+    element: .product-price-box .price-box .regular-price span
+    url: https://cplonline.com.au/samsung-970-evo-plus-series-250gb-m-2-ssd-mz-v7s250bw-5y.html
+  -
+    name: Scorptec
+    element: '#price-price'
+    url: https://www.scorptec.com.au/product/Hard-Drives-&-SSDs/SSD-mSATA-&-m.2/75821-MZ-V7S250BW
+  -
+    name: UMart
+    element: "#shop_price"
+    url: https://www.umart.com.au/Samsung-250GB-970-EVO-Plus-M-2-NVMe-SSD_49545G.html
+  -
+    name: PLE Computers
+    element: .vi2_theprice
+    url: https://www.ple.com.au/Products/634650/Samsung-970-EVO-Plus-250GB-M2-NVMe-SSD
+  -
+    name: Storm Computers
+    element: .woocommerce-Price-amount
+    url: https://www.stormcomputers.com.au/product/samsung-970-evo-plus-250gb-m-2-nvme-ssd-mz-v7s250bw/
+  -
+    name: PC Byte
+    element: .regular-price .price
+    url: https://www.pcbyte.com.au/samsung-970-evo-plus-500gb-m-2-nvme-pcie-3-0-x4-internal-solid-state-drive-ssd-3-5gb-s-25362
+  -
+    name: Budget PC
+    element: .regular-price .price
+    url: https://www.budgetpc.com.au/samsung-970-evo-plus-250gb-22x80mm-pcie-gen-3-x4-m-2-nvme-ssd
+
+

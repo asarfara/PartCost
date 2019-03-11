@@ -1,0 +1,49 @@
+# YAML
+name: Seagate BarraCuda HDD 1TB
+type: processor
+suppliers:
+  -
+    name: Mwave
+    element: .divPriceNormal div
+    url: https://www.mwave.com.au/product/seagate-st1000dm010-1tb-barracuda-35-sata3-desktop-hard-drive-ab88317
+  -
+    name: Centre com
+    element: .prod_price_current span
+    url: https://www.centrecom.com.au/seagate-barracuda-1tb-hard-drive-st1000dm010
+  -
+    name: PC Byte
+    element: .regular-price .price
+    url: https://www.pcbyte.com.au/seagate-barracuda-1tb-hard-disk-drive
+  -
+    name: PC Case Gear
+    element: .product-price span
+    url: https://www.pccasegear.com/products/37360/seagate-barracuda-1tb-st1000dm010
+  -
+    name: Budget PC
+    element: .regular-price .price
+    url: https://www.budgetpc.com.au/computer-hardware/storage-devices/internal-hard-drives/3-5-hard-drive/seagate-st1000dm010-1tb-barracuda-3-5-sata3-desktop-hard-drive
+  -
+    name: UMart
+    element: "#shop_price"
+    url: https://www.umart.com.au/Seagate-Barracuda-1TB-ST1000DM010-3-5in-Hard-Drive_37574G.html
+  -
+    name: PLE Computers
+    element: .vi2_theprice
+    url: https://www.ple.com.au/Products/625146/Seagate-Barracuda-ST1000DM010-35-1TB-64MB-HDD
+  -
+    name: Storm Computers
+    element: .woocommerce-Price-amount
+    url: https://www.stormcomputers.com.au/product/seagate-hdd-1tb-barracuda-3-5-7200rpm-sata3-6gb-s-64mb-cache-st1000dm010-hard-drive/
+  -
+    name: MSY
+    element: "#our_price_display"
+    url: https://www.msy.com.au/hard-drive/17965-seagate-35-barracuda-1tb-st1000dm010-sata3-7200rpm-64mb-hdd.html
+  -
+    name: CPL Online
+    element: .product-price-box .price-box .regular-price span
+    url: https://cplonline.com.au/seagate-st1000dm010-barracuda-1tb-desktop-hdd.html
+  -
+    name: Scorptec
+    element: '#price-price'
+    url: https://www.scorptec.com.au/product/Hard-Drives-&-SSDs/HDD-3.5-Drives/65863-ST1000DM010
+
