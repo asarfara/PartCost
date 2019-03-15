@@ -1,7 +1,24 @@
+# Python related files
+__pycache__
+*.pyc
+*.egg-info
+
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+*.db
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+@eaDir
 .idea
-.DS_STORE
-/logs/*
-/db/*
-__pycache__/
-*.py[cod]
-*$py.class
