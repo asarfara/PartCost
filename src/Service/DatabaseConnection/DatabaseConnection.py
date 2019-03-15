@@ -1,7 +1,7 @@
 import logging
 import sqlite3
 
-from sqlite3 import Error
+from sqlite3 import Error, Connection
 
 
 class DatabaseConnection:
@@ -9,7 +9,7 @@ class DatabaseConnection:
         self.file_name = file_name
         self.logger = logger
 
-    def create_connection(self):
+    def create_connection(self) -> Connection:
         try:
             self.logger.debug("Creating connection in {0}".format(self.file_name))
             return sqlite3.connect(self.file_name)

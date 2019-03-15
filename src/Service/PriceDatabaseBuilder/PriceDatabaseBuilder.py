@@ -1,11 +1,10 @@
 import logging
-import sqlite3
 
-from sqlite3 import Error
+from sqlite3 import Error, Connection
 
 
 class PriceDatabaseBuilder:
-    def __init__(self, file_name: str, logger: logging, connection):
+    def __init__(self, file_name: str, logger: logging, connection: Connection):
         self.file_name = file_name
         self.logger = logger
         self.connection = connection
@@ -20,7 +19,7 @@ class PriceDatabaseBuilder:
                                                date TEXT NOT NULL
                                            ); """
         try:
-            self.logger.debug("Creating table parts_price")
+            self.logger.debug("Creating table parts_price if it doesn't exists")
             cursor = self.connection.cursor()
             cursor.execute(sql_create_parts_price_table)
         except Error as e:

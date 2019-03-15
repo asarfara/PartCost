@@ -52,7 +52,6 @@ class PriceChecker:
                 self.logger.error("Exception occurred while trying to parse page: {0}".format(e))
                 continue
 
-
             if content:
                 element_html = content.text.replace(" ", "").replace("\t", "").replace("\n", "").replace("\r\n", "").replace("\r", "")
 
