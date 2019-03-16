@@ -20,7 +20,7 @@ file_handler.setFormatter(formatter)
 
 logger.addHandler(file_handler)
 
-document = open('/opt/projects/config/powersupply.yaml', 'r')
+document = open('/opt/projects/config/processor.yaml', 'r')
 database_file_name = "/opt/projects/db/parts.db"
 partsList = yaml.safe_load(document)
 
