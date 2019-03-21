@@ -1,6 +1,7 @@
 class Part:
     def __init__(self, name: str, price: float, supplier: str, type: str):
-        """Create a part object.
+        """
+        Create a part object.
 
         Args:
             name (str): Name of the part.

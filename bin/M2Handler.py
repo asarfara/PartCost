@@ -8,6 +8,7 @@ from src.Service.PriceChecker.PriceChecker import PriceChecker
 from src.Service.PriceDatabaseBuilder.PriceDatabaseBuilder import PriceDatabaseBuilder
 from src.Dao.Parts import Parts
 from src.Service.DatabaseConnection.DatabaseConnection import DatabaseConnection
+from src.Service.WebScraper.WebScraper import WebScraper
 
 logger = logging.getLogger('PartCost')
 logger.setLevel(logging.DEBUG)
@@ -25,7 +26,7 @@ database_file_name = "/opt/projects/db/parts.db"
 partsList = yaml.safe_load(document)
 
 databaseConnectionService = DatabaseConnection(database_file_name, logger)
-priceChecker = PriceChecker(partsList, logger)
+priceChecker = PriceChecker(partsList, logger, WebScraper())
 
 try:
     databaseConnection = databaseConnectionService.create_connection()
@@ -37,4 +38,4 @@ try:
     partPrices = priceChecker.check_prices()
     partsDao.insert_parts(partPrices)
 except Error as e:
-    logger.error("Exception occurred in ProcessorHandler: {0}".format(e))
+    logger.error("Exception occurred in M2Handler: {0}".format(e))

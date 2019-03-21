@@ -25,6 +25,7 @@ class Parts:
         for part in parts:
             self.logger.debug("Inserting into price_parts {0}".format(json.dumps(part.__dict__)))
             cursor.execute('INSERT INTO parts_price (name, price, supplier, type, date) VALUES (?,?,?,?,?)', [part.name, part.price, part.supplier, part.type, date.today()])
-            self.connection.commit()
+
+        self.connection.commit()
 
         return None
