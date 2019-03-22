@@ -19,4 +19,5 @@ class WebScraper:
 
         page = urlopen(req)
         soup = BeautifulSoup(page, 'html.parser')
-        return soup.select_one(element)
+        content = soup.select_one(element)
+        return content.text

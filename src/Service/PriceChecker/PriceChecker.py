@@ -26,10 +26,11 @@ class PriceChecker:
             Union[List[Part], None]: Collection of parts or None.
         """
 
-        if not self.parts_list:
+        if not self.parts_list or ('name' not in self.parts_list or 'type' not in self.parts_list or 'suppliers' not in self.parts_list):
             return None
 
         parts = []
+
         name = self.parts_list['name']
         suppliers = self.parts_list['suppliers']
         type = self.parts_list['type']
@@ -56,7 +57,7 @@ class PriceChecker:
                 continue
 
             if content:
-                element_html = content.text.replace(" ", "").replace("\t", "").replace("\n", "").replace("\r\n", "").replace("\r", "")
+                element_html = content.replace(" ", "").replace("\t", "").replace("\n", "").replace("\r\n", "").replace("\r", "")
 
             if element_html:
                 cost = re.findall(r'[\d\.\d]+', element_html)
