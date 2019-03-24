@@ -2,7 +2,7 @@ FROM python:3.5
 
 RUN apt-get update
 RUN apt-get install -y --no-install-recommends \
-        libatlas-base-dev gfortran nginx supervisor
+        libatlas-base-dev gfortran nginx supervisor cron
 
 RUN pip3 install uwsgi
 
@@ -19,6 +19,9 @@ COPY ./.docker/web/config/nginx.conf /etc/nginx/
 COPY ./.docker/web/config/flask-site-nginx.conf /etc/nginx/conf.d/
 COPY ./.docker/web/config/uwsgi.ini /etc/uwsgi/
 COPY ./.docker/web/config/supervisord.conf /etc/
+COPY ./.docker/web/config/project-cron /etc/cron.d/
+
+RUN service cron start
 
 WORKDIR /opt/projects
 

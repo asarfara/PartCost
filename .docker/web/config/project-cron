@@ -1,0 +1,8 @@
+10 9 * * * root /usr/local/bin/python3 /opt/projects/bin/CaseHandler.py >> /var/log/cron.log 2>&1
+15 9 * * * root /usr/local/bin/python3 /opt/projects/bin/GPUHandler.py >> /var/log/cron.log 2>&1
+20 9 * * * root /usr/local/bin/python3 /opt/projects/bin/HardDriveHandler.py >> /var/log/cron.log 2>&1
+25 9 * * * root /usr/local/bin/python3 /opt/projects/bin/M2Handler.py >> /var/log/cron.log 2>&1
+30 9 * * * root /usr/local/bin/python3 /opt/projects/bin/MemoryHandler.py >> /var/log/cron.log 2>&1
+35 9 * * * root /usr/local/bin/python3 /opt/projects/bin/MotherboardHandler.py >> /var/log/cron.log 2>&1
+40 9 * * * root /usr/local/bin/python3 /opt/projects/bin/PowerSupplyHandler.py >> /var/log/cron.log 2>&1
+45 9 * * * root /usr/local/bin/python3 /opt/projects/bin/ProcessorHandler.py >> /var/log/cron.log 2>&1
