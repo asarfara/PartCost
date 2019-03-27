@@ -12,7 +12,7 @@ services:
             - .:/opt/projects
         container_name: web
         ports:
-            - "8080:80"
+            - "8000:80"
         networks:
             - app
         stdin_open: true
