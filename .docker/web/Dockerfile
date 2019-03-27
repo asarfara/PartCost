@@ -25,8 +25,6 @@ COPY ./.docker/web/config/uwsgi.ini /etc/uwsgi/
 COPY ./.docker/web/config/supervisord.conf /etc/
 COPY ./.docker/web/config/project-cron /etc/cron.d/
 
-RUN service cron restart
-
 WORKDIR /opt/projects
 
 CMD ["/usr/bin/supervisord"]
