@@ -12,6 +12,10 @@ RUN pip3 install -r /opt/projects/requirements.txt
 
 RUN useradd --no-create-home nginx
 
+RUN chmod 755 $(find /opt/projects/ -type d)
+RUN chmod 644 $(find /opt/projects/ -type f)
+RUN chown nginx:nginx /opt/projects/ -R
+
 RUN rm /etc/nginx/sites-enabled/default
 RUN rm -r /root/.cache
 
