@@ -13,7 +13,7 @@ from src.Service.WebScraper.WebScraper import WebScraper
 logger = logging.getLogger('PartCost')
 logger.setLevel(logging.DEBUG)
 
-file_handler = logging.FileHandler('/opt/projects/logs/app.log')
+file_handler = logging.FileHandler('/var/log/app.log')
 file_handler.setLevel(logging.DEBUG)
 
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')

@@ -25,6 +25,8 @@ COPY ./.docker/web/config/uwsgi.ini /etc/uwsgi/
 COPY ./.docker/web/config/supervisord.conf /etc/
 COPY ./.docker/web/config/project-cron /etc/cron.d/
 
+RUN /usr/bin/touch /var/log/app.log
+
 WORKDIR /opt/projects
 
 CMD ["/usr/bin/supervisord"]
